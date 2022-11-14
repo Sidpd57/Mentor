@@ -4,7 +4,7 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand ps-4" href="#">
+        <a className="navbar-brand ps-3.5" href="#">
           Mentor
         </a>
         <button
@@ -24,17 +24,26 @@ function Header() {
               <a className="nav-link ">Home</a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link ">Contact</a>
+              <a className="nav-link ">Admin</a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link ">Support</a>
+              <a className="nav-link ">Mentor</a>
+            </li>
+            <li className="nav-item ">
+              <a className="nav-link ">Student</a>
+            </li>
+            <li className="nav-item ">
+              <a className="nav-link ">Contact</a>
             </li>
           </ul>
         </div>
         <form className="d-flex">
-            <button className="btn btn-outline-success ms-4 nav-item" type="button">
-              Login
-            </button>
+          <button
+            className="btn btn-outline-success ms-4 nav-item"
+            type="button"
+          >
+            Login
+          </button>
         </form>
       </div>
     </nav>
